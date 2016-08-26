@@ -1,0 +1,18 @@
+$gilsansmtregular: 'GilSansMTRegular';
+$gilsansmtlight: 'GilSansMTLight';
+@font-face {
+  font-family: 'GilSansMTRegular';
+  src: url('../fonts/GilSansMT/GilSansMTRegular.eot') format('embedded-opentype'),
+  url('../fonts/GilSansMT/GilSansMTRegular.woff2') format('woff2'),
+  url('../fonts/GilSansMT/GilSansMTRegular.woff') format('woff'),
+  url('../fonts/GilSansMT/GilSansMTRegular.ttf') format('truetype'),
+  url('../fonts/GilSansMT/GilSansMTRegular.svg') format('svg');
+}
+@font-face {
+  font-family: 'GilSansMTLight';
+  src: url('../fonts/GilSansMT/GilSansMTLight.eot') format('embedded-opentype'),
+  url('../fonts/GilSansMT/GilSansMTLight.woff2') format('woff2'),
+  url('../fonts/GilSansMT/GilSansMTLight.woff') format('woff'),
+  url('../fonts/GilSansMT/GilSansMTLight.ttf') format('truetype'),
+  url('../fonts/GilSansMT/GilSansMTLight.svg') format('svg');
+}
