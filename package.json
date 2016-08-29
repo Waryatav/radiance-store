@@ -1,21 +1,49 @@
 {
-  "name": "loaf_furniture",
+  "name": "radiance-store",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "autoprefixer": "^6.4.0",
+    "browser-sync": "^2.14.0",
+    "cssnano": "^3.7.4",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-html-extend": "^1.1.6",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^5.0.0",
+    "postcss-assets": "^4.1.0",
+    "postcss-fixes": "^1.4.0",
+    "postcss-focus": "^1.0.0",
+    "postcss-font-magician": "^1.4.0",
+    "postcss-pxtorem": "^3.3.1",
+    "postcss-short": "^1.4.0",
+    "postcss-short-spacing": "^1.0.0",
+    "postcss-sorting": "^1.6.1",
+    "rimraf": "^2.5.4",
+    "stylefmt": "^4.2.3",
+    "yargs": "^5.0.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AKD47/loaf_furniture.git"
+    "url": "git+https://github.com/Waryatav/radiance-store.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AKD47/loaf_furniture/issues"
+    "url": "https://github.com/Waryatav/radiance-store/issues"
   },
-  "homepage": "https://github.com/AKD47/loaf_furniture#readme"
+  "homepage": "https://github.com/Waryatav/radiance-store#readme"
 }

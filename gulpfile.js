@@ -27,8 +27,6 @@ var postcss = require('gulp-postcss'),//Блиотека-парсер стиле
     fontmagic = require('postcss-font-magician'),
     fixes = require('postcss-fixes');
 
-
-
 gulp.task('css-libs', function() { // Создаем таск css-libs
     var processors = [
         cssnano
@@ -53,10 +51,10 @@ gulp.task('sass', function() { // Создаем таск Sass
         autoprefixer(['last 5 versions', '> 5%', 'ie 8', 'ie 7'], {
             cascade: true
         }),
-        pxtorem({
+        /*pxtorem({
             rootValue: 14,
             replace: false
-        }),
+        }),*/
         focus,
         sorting(),
         stylefmt,
@@ -82,7 +80,7 @@ gulp.task('sass', function() { // Создаем таск Sass
 gulp.task('browser-sync', function() { // Создаем таск browser-sync
     browserSync({ // Выполняем browserSync
         proxy: {
-            target: 'loaf_furniture' // Директория для сервера - app
+            target: 'radiance-store' // Директория для сервера - app
         },
         ghostMode: {
             clicks: true,
