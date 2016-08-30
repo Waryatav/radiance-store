@@ -1,0 +1,1 @@
+{"version":3,"sources":["content/left_section.scss"],"names":[],"mappings":"AAAA,cACC,YAAa,AACb,aAAc,AACd,eAAiB,CACjB","file":"content/left_section.min.css","sourcesContent":[".left_section{\r\n\twidth: 33.3%;\r\n\theight: 400px;\r\n\tbackground: #000;\r\n}"],"sourceRoot":"css-source"}

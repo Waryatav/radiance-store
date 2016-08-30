@@ -1,18 +1,12 @@
-$gilsansmtregular: 'GilSansMTRegular';
-$gilsansmtlight: 'GilSansMTLight';
+
+$gill: 'GillSans';
+
 @font-face {
-  font-family: 'GilSansMTRegular';
-  src: url('../fonts/GilSansMT/GilSansMTRegular.eot') format('embedded-opentype'),
-  url('../fonts/GilSansMT/GilSansMTRegular.woff2') format('woff2'),
-  url('../fonts/GilSansMT/GilSansMTRegular.woff') format('woff'),
-  url('../fonts/GilSansMT/GilSansMTRegular.ttf') format('truetype'),
-  url('../fonts/GilSansMT/GilSansMTRegular.svg') format('svg');
-}
-@font-face {
-  font-family: 'GilSansMTLight';
-  src: url('../fonts/GilSansMT/GilSansMTLight.eot') format('embedded-opentype'),
-  url('../fonts/GilSansMT/GilSansMTLight.woff2') format('woff2'),
-  url('../fonts/GilSansMT/GilSansMTLight.woff') format('woff'),
-  url('../fonts/GilSansMT/GilSansMTLight.ttf') format('truetype'),
-  url('../fonts/GilSansMT/GilSansMTLight.svg') format('svg');
+  font-family: 'GillSans';
+  src: url('../fonts/GillSans/GillSans.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/GillSans/GillSans.woff') format('woff'), 
+  url('../fonts/GillSans/GillSans.ttf')  format('truetype'), 
+  url('../fonts/GillSans/GillSans.svg#GillSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
