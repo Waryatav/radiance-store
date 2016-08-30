@@ -1,5 +1,89 @@
 .left_section{
 	width: 33.3%;
-	height: 400px;
-	background: #000;
+	position: relative;
+	.logo_container{
+		width: 100%;
+		display: block;
+		background: url("../img/bg/logo_bg.jpg") no-repeat;
+		height: 335px;
+    	background-size: cover;
+    	.logo{
+			display: block;
+			position: relative;
+    		top: 3%;
+    		text-align: center;
+		}
+    	.line{
+			display: block;
+			position: relative;
+			left: 16%;
+			bottom: -7px;
+    		height: 1px;
+    		width: 68%;
+    		background-color: #dfc8b9;
+    		z-index: 1;
+    		&::after{
+    			position: absolute;
+    			z-index: 2;
+    			width: 32px;
+    			height: 15px;
+   				background-color: #fff8f0;
+    			content: "";
+    			left: 46%;
+    			top: -4px;
+    		}
+    	}
+    	span{
+    	font-family: $gill;
+    	font-size: 22px;
+    	text-transform: uppercase;
+    	text-align: center;
+    	color: #a88975;
+    	margin-bottom: 25px;
+
+    	}
+    	.logo-dot{
+    		width: 8px;
+    		height: 8px;
+    		background-color: #d4b7a5;
+			display: block;
+    		border-radius: 50%;
+    		position: absolute;
+    		left: 50%;
+    		bottom: 5.30%;
+    		z-index: 3;
+    	}
+
+
+	}
+
+.main_menu{
+	background: url("../img/bg/left_section_mnu_bg.jpg");
+	margin-top: -17px;
+	height:510px;
+	ul{
+		list-style-type: none;
+		li{
+			padding: 17px 0; 
+		}
+	}
+	&__item{
+		font-family: $gill; 
+		font-size: 40px;
+		color: #ffffff;
+		margin-left: 48px;
+    	top: 5px;
+   		text-align: center;
+	}
+	.mnu_arrow{
+		background: url("../img/icons/menu_arrow.png");
+		position: relative;
+		float: left;
+		width: 36px;
+		height: 37px;
+		margin-right:-43px;
+
+
+	}
+}
 }

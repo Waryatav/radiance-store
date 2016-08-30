@@ -14,22 +14,26 @@
 }
 @media (min-width: 768px) {
   .container {
-    width: 766px;
+    //width: 766px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 990px;
+  // width: 990px;
+  width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 990px;
+    // width: 990px;
+    width: 100%;
   }
 }
 
 @media (min-width: 1900px) {
   .container {
-    width: 1920px;
+    /*width: 1920px;*/
+    width: 100%;
   }
 }
