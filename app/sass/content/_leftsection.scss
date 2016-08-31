@@ -95,6 +95,7 @@
 		margin-left: 48px;
     	top: 5px;
    		text-align: center;
+        text-transform: uppercase;
 	}
 	.mnu_arrow{
 		background: url("../img/icons/menu_arrow.png");
@@ -128,7 +129,7 @@
 .catalogue{
     background:url("../img/bg/left_section_catalogue_mnu_bg.jpg") no-repeat;
     background-size: cover;
-    padding:40px 0;
+    padding:30px 0;
     position: relative;
     h3{
         margin: 0;
@@ -143,8 +144,8 @@
         
             list-style-type: none;
             margin: 0;
-            padding-left: 105px;
-            
+            padding-left: 88px;
+
             li{
                 padding: 12px 0;
                 &:hover{
@@ -154,9 +155,10 @@
         
         &__item{
             font-family: $gill; 
-            font-size: 24px;
+            font-size: 22px;
             text-transform: uppercase;
             color:#604c3e;
+            padding-left: 20px;
             
         }
 
@@ -167,7 +169,7 @@
         position: absolute;
         width:26px;
         height:15px;
-        top:144px;
+        top:109px;
         left:42px;
     }
     .catalogue_arrow_down{
@@ -175,7 +177,7 @@
         position: absolute;
         width:26px;
         height:15px;
-        top:404px;
+        top:353px;
         left:42px;
 
     }   
@@ -185,8 +187,30 @@
     height: 2px;
     width:80%;
     float:right;
-    margin-bottom:30px;
+    margin-bottom:12px;
 }
+}
+.custom_care{
+    background: url("../img/bg/left_section_custom_care_bg.jpg") 0 0 no-repeat;
+    h3{
+        font-family: $gill;
+        font-size: 40px;
+        color: #604c3e;
+        text-transform: uppercase;
+        text-align: center;
+        margin:0;
+    }
+    &__menu{
+        list-style-type: none;
+        &__item{
+            font-family: $gill;
+            color: #fff;
+            font-size: 24px;
+            text-transform: uppercase;
+
+        }
+    }
+
 }
 
 }
