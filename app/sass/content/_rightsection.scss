@@ -2,4 +2,112 @@
 	width: 66.6%;
 	position: relative;
 	float: right;
+
+	.slider-top{
+		width: 100%;
+		.item{
+			height: 715px;
+			.slide-item-big{
+				width: 46%;
+				float: left;
+				position: relative;
+			}
+
+			.slide-item{
+				position: relative;
+				width: 54%;
+				float: right;
+
+			}
+		}
+		.owl-prev{
+			position: absolute;
+			top: 37%;
+		}
+		.owl-next{
+			position: absolute;
+			top: 37%;
+			right: 0;
+		}
+	
+		.slider-text-big{
+			position: absolute;
+			top: 30px;
+			left: 7%;
+			display: block;
+			font-family: $gill;
+			color: #cecdcc;
+			text-transform: uppercase;
+			margin: 0;
+			h4{
+				font-size:30px;
+				margin: 0;
+			}
+			p{
+				margin: 0;
+				font-size: 22px;
+			}
+
+		}
+	.slider-text-top{
+		position: absolute;
+		top: 28%;
+		left: 31%;
+		font-family: $gill;
+		text-transform: uppercase;
+		margin: 0;
+		h4{
+			margin: 0;
+			font-size:32px;
+			color: #8b6e5c;
+		}
+		p{
+			margin: 0;
+			font-size: 25px;
+			color: #c2a390;
+		}
+	}
+	.slider-text-mid{
+		position: absolute;
+		top: 9%;
+		left: 57%;
+		font-family: $gill;
+		text-transform: uppercase;
+		margin: 0;
+		text-align: right;
+		h4{
+			margin: 0;
+			font-size:32px;
+			color: #e19a83;
+		}
+		p{
+			margin: 0;
+			font-size: 25px;
+			color: #ba8978;
+		}
+	}
+		.slider-text-bot{
+			position: absolute;
+			top: 5%;
+			left: 33%;
+			font-family: $gill;
+			text-transform: uppercase;
+			margin: 0;
+			text-align: center;
+
+			h4{
+				margin: 0;
+				font-size:32px;
+				color: #c17a85;
+			}
+			p{
+				margin: 0;
+				font-size: 25px;
+				color: #c6a9ae;
+			}
+		}
+
+	}
+
+
 }
