@@ -118,7 +118,7 @@
     top: 333px;
     } 
 &::after{
-    background: url("../img/bg/left_section_mnu_bg_after.png") no-repeat;
+    background: url($_base + "/img/bg/left_section_mnu_bg_after.png") no-repeat;
     position: absolute;
     height: 15px;
     width: 100%;
@@ -128,7 +128,7 @@
 }
 
 .catalogue{
-    background:url("../img/bg/left_section_catalogue_mnu_bg.jpg") no-repeat;
+    background:url($_base + "/img/bg/left_section_catalogue_mnu_bg.jpg") no-repeat;
     background-size: cover;
     padding:30px 0;
     position: relative;
@@ -168,7 +168,7 @@
     }   
 
     .catalogue_arrow_up{
-        background: url("../img/icons/catalogue_arrow_up.png") no-repeat;
+        background: url($_base + "/img/icons/catalogue_arrow_up.png") no-repeat;
         position: absolute;
         width:26px;
         height:15px;
@@ -176,7 +176,7 @@
         left:16px;
     }
     .catalogue_arrow_down{
-        background: url("../img/icons/catalogue_arrow_down.png") no-repeat;   
+        background: url($_base + "/img/icons/catalogue_arrow_down.png") no-repeat;
         position: absolute;
         width:26px;
         height:15px;
@@ -186,7 +186,7 @@
     }   
 
 &__line{
-    background: url("../img/bg/catalogue_line.png") no-repeat right;
+    background: url($_base + "/img/bg/catalogue_line.png") no-repeat right;
     height: 2px;
     width:80%;
     float:right;
@@ -195,7 +195,7 @@
 }
 .custom_care{
     padding: 30px 0;
-    background: url("../img/bg/left_section_custom_care_bg.jpg") 0 0 no-repeat;
+    background: url($_base + "/img/bg/left_section_custom_care_bg.jpg") 0 0 no-repeat;
     position: relative;
     height: 230px;
     h3{
@@ -241,7 +241,7 @@
     }
 
     &__line{
-    background: url("../img/bg/custom_care_line.png") no-repeat right;
+    background: url($_base + "/img/bg/custom_care_line.png") no-repeat right;
     height: 2px;
     width:80%;
     float:right;
@@ -249,7 +249,7 @@
 }
 
     &__arrow_up{
-        background: url("../img/icons/custom_care_arrow_up.png") no-repeat;
+        background: url($_base + "/img/icons/custom_care_arrow_up.png") no-repeat;
         position: absolute;
         width:30px;
         height:18px;
@@ -257,7 +257,7 @@
         left:16px;
     }
     &__arrow_down{
-        background: url("../img/icons/custom_care_arrow_down.png") no-repeat;   
+        background: url($_base + "/img/icons/custom_care_arrow_down.png") no-repeat;
         position: absolute;
         width:30px;
         height:18px;
@@ -265,7 +265,7 @@
         left:16px;
     }
     &__arrow{
-        background: url("../img/icons/custom_care_arrow_right.png");
+        background: url($_base + "/img/icons/custom_care_arrow_right.png");
         position: relative;
         float: left;
         width: 21px;

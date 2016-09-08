@@ -1,0 +1,180 @@
+
+footer{
+  width: 100%;
+  height: 141px;
+  position: relative;
+  float: left;
+    .left-footer {
+      display: block;
+      width: 33.3%;
+      height: 100%;
+      background-color: #e18f9c;
+      float: left;
+      &::before{
+        position: relative;
+        width: 100%;
+        height: 13px;
+        background: url($_base + "/img/bg/footer_left_footer_before.png") no-repeat;
+        background-size: cover;
+        content: "";
+        top: -2px;
+        left: 0;
+        display: block;
+      }
+      h4{
+        font-family: $gill;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        font-weight: 100;
+      }
+      .social{
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        li{
+          display: inline;
+          padding: 20px;
+
+          .social_link{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: transparent;
+            padding: 0;
+            &:hover{
+              background-color: #f6bec7;
+
+            }
+          }
+        }
+          .social_vk{
+            background: url($_base + "/img/icons/social_vk.png") no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            display: block;
+            position: relative;
+            width: 20px;
+            height: 26px;
+            margin: 11px auto;
+          }
+        .social_fb{
+          background: url($_base + "/img/icons/social_fb.png") no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            display: block;
+            position: relative;
+            margin: 7px auto;
+            width: 15px;
+            height: 33px;
+        }
+        .social_ok{
+          background: url($_base + "/img/icons/social_ok.png") no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            display: block;
+            position: relative;
+            margin: 8px auto;
+            width: 18px;
+            height: 32px;
+        }
+        .social_twitter{
+          background: url($_base + "/img/icons/social_twitter.png") no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            display: block;
+            position: relative;
+            margin: 11px auto;
+            width: 31px;
+            height: 26px;
+        }
+        .social_googleplus{
+            background: url($_base + "/img/icons/social_googleplus.png") no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            display: block;
+            position: relative;
+            margin: 12px auto;
+            width: 39px;
+            height: 24px;
+        }
+      }
+    }
+  .right-footer {
+    width: 66.7%;
+    height: 100%;
+    background-color: #fce5d2;
+    float: right;
+    &::before{
+      position: relative;
+      width: 100%;
+      height: 13px;
+      background: url($_base + "/img/bg/footer_right_footer_before.png") no-repeat;
+      background-size: cover;
+      content: "";
+      top: -2px;
+      left: 0;
+      display: block;
+
+    }
+    .footer-mnu{
+      text-align: center;
+      li{
+        display: inline;
+        padding: 1%;
+        a{
+          text-transform: uppercase;
+          font-family: $gill;
+          color: #000;
+          font-size: 18px;
+        }
+      }
+    }
+  .line-brown{
+    height: 2px;
+    width: 100%;
+    background-color: #c2a390;
+    display: block;
+    margin-bottom: 2px;
+  }
+    .bot-footer{
+      background-color: #c2a390;
+      height: 71px;
+        &__left-side{
+            padding-left: 2%;
+          float: left;
+          width: 50%;
+          margin-top: 28px;
+          a{
+            padding: 0 10%;
+            font-family: $gill;
+            color: #fff;
+          }
+        }
+      &__right-side{
+        float: right;
+        ul{
+          margin: 0;
+          li{
+            display: inline;
+            padding-right: 20px;
+            font-family: $gill;
+            color: #fff;
+            .logo_small{
+              display: inline-block;
+              width: 98px;
+              height: 44px;
+              background: url($_base + "/img/logo_small.png") no-repeat;
+              background-size: cover;
+              position: relative;
+              top: 13px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
