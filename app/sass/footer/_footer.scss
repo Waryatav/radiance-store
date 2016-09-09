@@ -1,12 +1,12 @@
 
-footer{
+.foot-left-side{
+  float: left;
   width: 100%;
   height: 141px;
   position: relative;
-  float: left;
     .left-footer {
       display: block;
-      width: 33.3%;
+      width: 100%;
       height: 100%;
       background-color: #e18f9c;
       float: left;
@@ -102,6 +102,9 @@ footer{
         }
       }
     }
+
+}
+.foot-right-side{
   .right-footer {
     width: 66.7%;
     height: 100%;
@@ -132,27 +135,27 @@ footer{
         }
       }
     }
-  .line-brown{
-    height: 2px;
-    width: 100%;
-    background-color: #c2a390;
-    display: block;
-    margin-bottom: 2px;
-  }
+    .line-brown{
+      height: 2px;
+      width: 100%;
+      background-color: #c2a390;
+      display: block;
+      margin-bottom: 2px;
+    }
     .bot-footer{
       background-color: #c2a390;
       height: 71px;
-        &__left-side{
-            padding-left: 2%;
-          float: left;
-          width: 50%;
-          margin-top: 28px;
-          a{
-            padding: 0 10%;
-            font-family: $gill;
-            color: #fff;
-          }
+      &__left-side{
+        padding-left: 2%;
+        float: left;
+        width: 50%;
+        margin-top: 28px;
+        a{
+          padding: 0 10%;
+          font-family: $gill;
+          color: #fff;
         }
+      }
       &__right-side{
         float: right;
         ul{

@@ -15,4 +15,13 @@ jQuery(document).ready(function($) {
         navText : ["<img src='img/icons/slider-bot-prev.png'>","<img src='img/icons/slider-bot-next.png'>"]
     });
 
+    $('.catalogue-carousel').owlCarousel({
+        loop: true,
+        items: 6,
+        nav: true,
+        autoplayHoverPause: true,
+        animateOut: 'slideOutUp',
+        animateIn: 'slideInUp'
+    });
+
 });

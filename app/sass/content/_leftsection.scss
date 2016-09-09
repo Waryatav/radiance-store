@@ -5,7 +5,7 @@
 	.logo_container{
 		width: 100%;
 		display: block;
-		background: url("../img/bg/logo_bg.jpg") no-repeat;
+		background: url($_base + "/img/bg/logo_bg.jpg") no-repeat;
 		height: 335px;
     	background-size: cover;
     	.logo{
@@ -59,7 +59,7 @@
 	}
 
 .main_menu{
-	background: url("../img/bg/left_section_mnu_bg.jpg") no-repeat;
+	background: url($_base + "/img/bg/left_section_mnu_bg.jpg") no-repeat;
 	margin-top: -17px;
 	height:380px;
     background-size: cover;
@@ -99,7 +99,7 @@
         text-transform: uppercase;
 	}
 	.mnu_arrow{
-		background: url("../img/icons/menu_arrow.png");
+		background: url($_base + "/img/icons/menu_arrow.png");
 		position: relative;
 		float: left;
 		width: 36px;
@@ -110,7 +110,7 @@
     }
 
 &::before{
-    background: url("../img/bg/left_section_mnu_bg_before.png") no-repeat;
+    background: url($_base + "/img/bg/left_section_mnu_bg_before.png") no-repeat;
     position: absolute;
     height: 15px;
     width: 100%;
@@ -128,6 +128,8 @@
 }
 
 .catalogue{
+
+
     background:url($_base + "/img/bg/left_section_catalogue_mnu_bg.jpg") no-repeat;
     background-size: cover;
     padding:30px 0;
@@ -142,13 +144,20 @@
         margin-bottom: 13px;
 
     }
+    .visible{
+      height: 270px;
+      width: 100%;
+      overflow: hidden;
     .catalogue_menu{
-        
+            position: relative;
             list-style-type: none;
             margin: 0;
             padding-left: 88px;
-
+            .visible-item{
+              display: block;
+            }
             li{
+                display: none;
                 padding: 12px 0;
                 &:hover{
                     background-color: #e3949f;
@@ -163,10 +172,10 @@
             color:#604c3e;
             padding-left: 20px;
             
-        }
+          }
 
-    }   
-
+      }
+    }
     .catalogue_arrow_up{
         background: url($_base + "/img/icons/catalogue_arrow_up.png") no-repeat;
         position: absolute;
