@@ -153,11 +153,11 @@
             list-style-type: none;
             margin: 0;
             padding-left: 88px;
-            .visible-item{
-              display: block;
-            }
+            //.visible-item{
+            //  display: block;
+            //}
             li{
-                display: none;
+                //display: none;
                 padding: 12px 0;
                 &:hover{
                     background-color: #e3949f;
