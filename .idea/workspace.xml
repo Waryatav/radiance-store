@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e0250a3-70db-4cc7-bca0-566818d158f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/html/_right_section.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/slick.carousel.options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/slick.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/left_section.html" afterPath="$PROJECT_DIR$/app/html/left_section.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/script.js" afterPath="$PROJECT_DIR$/app/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/content/_leftsection.scss" afterPath="$PROJECT_DIR$/app/sass/content/_leftsection.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/footer/_footer.scss" afterPath="$PROJECT_DIR$/app/sass/footer/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/html_close.html" afterPath="$PROJECT_DIR$/app/html/html_close.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/html_open.html" afterPath="$PROJECT_DIR$/app/html/html_open.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/right_section.html" afterPath="$PROJECT_DIR$/app/html/right_section.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/owl.carousel.options.js" afterPath="$PROJECT_DIR$/app/js/owl.carousel.options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/content/_rightsection.scss" afterPath="$PROJECT_DIR$/app/sass/content/_rightsection.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.min.css" afterPath="$PROJECT_DIR$/css/styles.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.min.css.map" afterPath="$PROJECT_DIR$/css/styles.min.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -38,7 +43,7 @@
     <favorites_list name="radiance-store" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.64164907">
+    <splitter split-orientation="horizontal" split-proportion="0.6481149">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="left_section.html" pinned="false" current-in-tab="false">
@@ -54,8 +59,8 @@
           <file leaf-file-name="right_section.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/html/right_section.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -64,22 +69,19 @@
           <file leaf-file-name="owl.carousel.options.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/js/owl.carousel.options.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="99" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/js/script.js">
+          <file leaf-file-name="slick.carousel.options.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/js/slick.carousel.options.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="274">
-                  <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-                  <folding>
-                    <marker date="1473496067088" expanded="true" signature="714:1512" ph="..." />
-                    <marker date="1473496067088" expanded="true" signature="2739:3253" ph="..." />
-                  </folding>
+                <state relative-caret-position="221">
+                  <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -91,8 +93,18 @@
           <file leaf-file-name="_rightsection.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/content/_rightsection.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1216">
-                  <caret line="390" column="8" selection-start-line="390" selection-start-column="8" selection-end-line="390" selection-end-column="8" />
+                <state relative-caret-position="709">
+                  <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_rightsection_.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/sass/content/_rightsection_.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="179">
+                  <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="123" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -101,7 +113,7 @@
           <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/footer/_footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="281">
+                <state relative-caret-position="383">
                   <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
                   <folding />
                 </state>
@@ -111,8 +123,8 @@
           <file leaf-file-name="_leftsection.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/content/_leftsection.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="94">
-                  <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
+                <state relative-caret-position="43">
+                  <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -137,20 +149,24 @@
       <list>
         <option value="$PROJECT_DIR$/app/html/pages/html_close" />
         <option value="$PROJECT_DIR$/app/html/head.html" />
-        <option value="$PROJECT_DIR$/app/html/html_open.html" />
         <option value="$PROJECT_DIR$/app/html/html_close" />
         <option value="$PROJECT_DIR$/app/sass/styles.scss" />
         <option value="$PROJECT_DIR$/app/html/footer.html" />
         <option value="$PROJECT_DIR$/app/sass/libs/_style.scss" />
         <option value="$PROJECT_DIR$/app/html/pages/index.html" />
-        <option value="$PROJECT_DIR$/app/html/right_section.html" />
         <option value="$PROJECT_DIR$/app/sass/libs/_vars.scss" />
-        <option value="$PROJECT_DIR$/app/js/owl.carousel.options.js" />
         <option value="$PROJECT_DIR$/app/sass/content/_leftsection.scss" />
         <option value="$PROJECT_DIR$/app/html/left_section.html" />
         <option value="$PROJECT_DIR$/app/sass/footer/_footer.scss" />
         <option value="$PROJECT_DIR$/app/js/script.js" />
+        <option value="$PROJECT_DIR$/app/html/_right_section.html" />
+        <option value="$PROJECT_DIR$/js/thumbnail-slider.js" />
+        <option value="$PROJECT_DIR$/app/html/html_open.html" />
+        <option value="$PROJECT_DIR$/app/html/html_close.html" />
+        <option value="$PROJECT_DIR$/app/js/owl.carousel.options.js" />
         <option value="$PROJECT_DIR$/app/sass/content/_rightsection.scss" />
+        <option value="$PROJECT_DIR$/app/html/right_section.html" />
+        <option value="$PROJECT_DIR$/app/js/slick.carousel.options.js" />
       </list>
     </option>
   </component>
@@ -252,7 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,50 +372,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="header" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiance-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiance-store" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footer" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiance-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiance-store" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="content" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -416,6 +387,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,30 +430,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiance-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiance-store" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -491,7 +445,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\radiance-store\app\js" />
+      <recent name="D:\OpenServer\domains\radiance-store\css" />
+      <recent name="D:\OpenServer\domains\radiance-store\app\html" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\radiance-store\js" />
+      <recent name="D:\OpenServer\domains\radiance-store\css" />
+      <recent name="D:\OpenServer\domains\radiance-store\app\libs" />
+      <recent name="D:\OpenServer\domains\radiance-store\app\js" />
       <recent name="D:\OpenServer\domains\radiance-store\app\html" />
     </key>
   </component>
@@ -550,7 +513,8 @@
       <workItem from="1473419015379" duration="258000" />
       <workItem from="1473419402144" duration="5794000" />
       <workItem from="1473425454580" duration="5677000" />
-      <workItem from="1473492327684" duration="5998000" />
+      <workItem from="1473492327684" duration="6038000" />
+      <workItem from="1473663110916" duration="20316000" />
     </task>
     <task id="LOCAL-00001" summary="top carousel">
       <created>1472821272521</created>
@@ -601,18 +565,25 @@
       <option name="project" value="LOCAL" />
       <updated>1473431109292</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="js menu move">
+      <created>1473498497790</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1473498497790</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87237000" />
+    <option name="totallyTimeSpent" value="107593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1580938" sideWeight="0.46945336" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1580938" sideWeight="0.5305466" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15733737" sideWeight="0.47749197" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15733737" sideWeight="0.522508" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -652,84 +623,14 @@
     <MESSAGE value="add footer scss" />
     <MESSAGE value="fix" />
     <MESSAGE value="js" />
-    <option name="LAST_COMMIT_MESSAGE" value="js" />
+    <MESSAGE value="js menu move" />
+    <option name="LAST_COMMIT_MESSAGE" value="js menu move" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/owl.carousel.options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/content/_rightsection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6052">
-          <caret line="356" column="34" selection-start-line="356" selection-start-column="34" selection-end-line="356" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/content/_leftsection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/content/_rightsection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6035">
-          <caret line="355" column="43" selection-start-line="355" selection-start-column="43" selection-end-line="355" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/right_section.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/content/_leftsection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3196">
-          <caret line="188" column="34" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/libs/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/owl.carousel.options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/footer/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -911,20 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/html_open.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/html_close.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
@@ -990,34 +877,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/owl.carousel.options.js">
+    <entry file="file://$PROJECT_DIR$/app/html/_right_section.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="96" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/content/_leftsection.scss">
+    <entry file="file://$PROJECT_DIR$/js/ninja-slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
+        <state relative-caret-position="179">
+          <caret line="22" column="8406" selection-start-line="22" selection-start-column="8403" selection-end-line="22" selection-end-column="8406" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/footer/_footer.scss">
+    <entry file="file://$PROJECT_DIR$/css/thumbnail-slider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="-29">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/right_section.html">
+    <entry file="file://$PROJECT_DIR$/js/thumbnail-slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/libs.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1030,22 +925,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/content/_rightsection.scss">
+    <entry file="file://$PROJECT_DIR$/app/html/html_close.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="390" column="8" selection-start-line="390" selection-start-column="8" selection-end-line="390" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/html/html_open.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/slick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <marker date="1473496067088" expanded="true" signature="714:1512" ph="..." />
             <marker date="1473496067088" expanded="true" signature="2739:3253" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/footer/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/content/_leftsection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/content/_rightsection_.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="123" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/content/_rightsection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/html/right_section.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/owl.carousel.options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/slick.carousel.options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>

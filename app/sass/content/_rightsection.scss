@@ -3,62 +3,79 @@
 	position: relative;
 	float: right;
 
+
 	.slider-top{
-		width: 100%;
-		.item{
+		width: 46%;
+		float: left;
+		.item {
 			height: 715px;
-			.slide-item-big{
-				width: 46%;
+			.slide-item-big {
+				width: 100%;
 				height: 716px;
 				float: left;
 				position: relative;
 				overflow: hidden;
-				img{
+				img {
 					object-fit: cover;
 				}
 			}
+		}
 
-			.slide-item{
-				position: relative;
-				width: 54%;
-				height: 238px;
-				overflow: hidden;
-				float: right;
-					img{
-						object-fit: cover;
-					}
-
+		.slider-top-prev{
+			position: absolute;
+			top: 37%;
+			z-index: 100;
+			&:hover{
+				cursor: pointer;
 			}
 		}
-		.owl-prev{
+		.slider-top-next{
 			position: absolute;
 			top: 37%;
-		}
-		.owl-next{
-			position: absolute;
-			top: 37%;
-			right: 0;
+			right: -119%;
+			z-index: 100;
+			&:hover{
+				cursor: pointer;
+			}
 		}
 
-		.slider-text-big{
-			position: absolute;
-			top: 30px;
-			left: 7%;
-			display: block;
-			font-family: $gill;
-			color: #cecdcc;
-			text-transform: uppercase;
+
+
+		}
+
+	.slick-slider{
+		.slide-item{
+			position: relative;
+			width: 54%;
+			height: 238px;
+			overflow: hidden;
+			float: right;
+			img{
+				object-fit: cover;
+			}
+
+		}
+	}
+	.slider-text-big{
+		position: absolute;
+		top: 30px;
+		left: 7%;
+		display: block;
+		font-family: $gill;
+		text-transform: uppercase;
+		margin: 0;
+		color: #c17a85;
+		h4{
+			font-size:30px;
 			margin: 0;
-			h4{
-				font-size:30px;
-				margin: 0;
-			}
-			p{
-				margin: 0;
-				font-size: 22px;
-			}
-
 		}
+		p{
+			margin: 0;
+			font-size: 22px;
+			color: #cecdcc;
+		}
+
+	}
 	.slider-text-top{
 		position: absolute;
 		top: 28%;
@@ -96,26 +113,26 @@
 			color: #ba8978;
 		}
 	}
-		.slider-text-bot{
-			position: absolute;
-			top: 5%;
-			left: 33%;
-			font-family: $gill;
-			text-transform: uppercase;
-			margin: 0;
-			text-align: center;
+	.slider-text-bot{
+		position: absolute;
+		top: 5%;
+		left: 33%;
+		font-family: $gill;
+		text-transform: uppercase;
+		margin: 0;
+		text-align: center;
 
-			h4{
-				margin: 0;
-				font-size:32px;
-				color: #c17a85;
-			}
-			p{
-				margin: 0;
-				font-size: 25px;
-				color: #c6a9ae;
-			}
+		h4{
+			margin: 0;
+			font-size:32px;
+			color: #c17a85;
 		}
+		p{
+			margin: 0;
+			font-size: 25px;
+			color: #c6a9ae;
+		}
+	}
 
 	}
 
@@ -326,7 +343,7 @@
 
 			}
 		}}
-}
+
 	.slider-bot{
 		.item{
 			display: block;

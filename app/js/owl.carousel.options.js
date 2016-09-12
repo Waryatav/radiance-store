@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 
-    $('.slider-top').owlCarousel({
+    $('.slider-top_').owlCarousel({
         loop:true,
         nav:true,
          items:1,
