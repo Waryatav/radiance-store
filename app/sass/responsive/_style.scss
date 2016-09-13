@@ -24,9 +24,89 @@
 
 @media only screen and (max-width: 1025px) {
 
+  .left_section{
+    width: 100%;
+    .logo_container{
+      .line{
+        &:after{
+          background-color: #f5e3d5;
+          left: 48.5%;
+        }
+      }
+    }
+    .custom_care{
+     display: none;
+    }
+  }
+
+  .right_section{
+    width: 100%;
+  .slider-top{
+    .slick-arrow{
+    display: none!important;
+    }
+  }
+  .slider-bot{
+    .owl-nav{
+      display: none;
+    }
+  }
+  }
+  .foot-right-side{
+  .right-footer{
+    width: 100%;
+  }
+  }
 }
 
 @media only screen and (max-width: 990px) {
+  .right_section{
+    .panel {
+      height: 216px;
+      .currencies{
+        width: 40%;
+        text-align: center;
+        p{
+          margin-right: 70%;
+        }
+        .line{
+          width: 100%;
+        }
+      }
+      .search-container{
+        width: 52%;
+        .search-container-header{
+          text-align: left;
+          margin-left: 8%;
+        }
+      }
+      .shoping-cart{
+        width: 50%;
+        .shoping-cart-header{
+          text-align: left;
+          margin-left: 8%;
+        }
+        .goods-usd{
+          margin-top: 10px;
+        }
+      }
+      .languages{
+        width: 50%;
+        text-align: center;
+        .languages-header{
+          text-align: left;
+
+        }
+        .language{
+          padding: 15px;
+        }
+        .line{
+          width: 96%;
+        }
+      }
+    }
+
+  }
 
 }
 
@@ -153,6 +233,7 @@
   .footer__social-links {
     justify-content: center;
   }
+
 }
 
 @media only screen and (max-width: 680px) {
@@ -278,9 +359,11 @@
   .footer__social-links {
     justify-content: center;
   }
+
 }
 
 @media only screen and (max-width: 568px) {
+
   .header .call-bar-link {
     display: block;
   }
