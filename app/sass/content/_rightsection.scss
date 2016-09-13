@@ -21,7 +21,7 @@
 			}
 		}
 
-		.slider-top-prev{
+		.slider-top-next{
 			position: absolute;
 			top: 37%;
 			z-index: 100;
@@ -29,7 +29,7 @@
 				cursor: pointer;
 			}
 		}
-		.slider-top-next{
+		.slider-top-prev{
 			position: absolute;
 			top: 37%;
 			right: -119%;
@@ -234,7 +234,7 @@
 			height: 22px;
 			background-size: cover;
 			position: absolute;
-			top: 35px;
+			top: 26px;
 			left: 90%;
 		}
 	}
@@ -451,3 +451,6 @@
 			}
 		}
 	}
+.slick-active {
+	outline: none;
+}

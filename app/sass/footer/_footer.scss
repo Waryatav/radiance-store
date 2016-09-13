@@ -127,6 +127,14 @@
       li{
         display: inline;
         padding: 1%;
+        &:hover{
+          background-color: #e3949f;
+          cursor: pointer;
+          -webkit-transition: all 0.2s ease-in-out 0.1s;
+          -moz-transition: all 0.2s ease-in-out 0.1s;
+          -o-transition: all 0.2s ease-in-out 0.1s;
+          transition: all 0.2s ease-in-out 0.1s;
+        }
         a{
           text-transform: uppercase;
           font-family: $gill;
@@ -144,7 +152,7 @@
     }
     .bot-footer{
       background-color: #c2a390;
-      height: 71px;
+      height: 66px;
       &__left-side{
         padding-left: 2%;
         float: left;
