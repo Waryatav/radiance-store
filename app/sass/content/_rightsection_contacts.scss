@@ -1,0 +1,46 @@
+.contacts{
+  .panel{
+    &:after{
+      content: '';
+      background: url($_base + "/img/bg/contacts_panel_after.png");
+      position: absolute;
+      top: 98px;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      height: 11px;
+    }
+  }
+  width: 66.6%;
+  float: right;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  .contacts_map{
+    width: 100%;
+    height:500px;
+    .map-panel{
+      width: 100%;
+      height: 70px;
+      position: absolute;
+      z-index: 1;
+      background-color: #cbaa96;
+      .map-panel-contact-us{
+        font-family: $gill;
+        font-size: 35px;;
+        color: #fff8f0;
+        text-transform: uppercase;
+        display: block;
+        margin-top: 15px;
+        margin-left: 5%;
+
+      }
+    }
+    #map{
+      width: 100%;
+      height:100%;
+    }
+  }
+}

@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
 
 
        $(document).on("click", ".catalogue_arrow_down", function () {
-         event.preventDefault();
+         //event.preventDefault();
          var allElements = cataljgue_ul.find("li");
          //console.log(allElements);
          var allHiddenElements = cataljgue_ul.find(".hidden");
@@ -40,10 +40,11 @@ jQuery(document).ready(function($) {
          }else{
              return false;
          }
-     });
+           return false;
+       });
 
     $(document).on("click",".catalogue_arrow_up",function () {
-        event.preventDefault();
+        //event.preventDefault();
         var allHiddenElements = cataljgue_ul.find(".hidden");
         
         var visibleElements = $(".catalogue_menu").find(".visible-item");
@@ -52,13 +53,13 @@ jQuery(document).ready(function($) {
             $(visibleElements[visibleElements.length-1]).slideUp().removeClass("visible-item");
 
         }
-        
 
+        return false;
     });
 
     //custom care
     $(document).on("click", ".custom_care__arrow_down", function () {
-        event.preventDefault();
+        //event.preventDefault();
         var allElements = custom_care_ul.find("li");
 
         var allHiddenElements = custom_care_ul.find(".hidden");
@@ -74,10 +75,11 @@ jQuery(document).ready(function($) {
         }else{
             return false;
         }
+    return false;
     });
 
     $(document).on("click",".custom_care__arrow_up",function () {
-        event.preventDefault();
+        //event.preventDefault();
         var allHiddenElements = custom_care_ul.find(".hidden");
 
         var visibleElements = $(".custom_care__menu").find(".visible-item");
@@ -87,6 +89,6 @@ jQuery(document).ready(function($) {
 
         }
 
-
+        return false;
     });
 });

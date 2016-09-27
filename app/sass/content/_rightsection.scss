@@ -356,6 +356,7 @@
 				padding: 20px;
 				float: left;
 				background-color: #fce5d2;
+				height: 295px;
 				&:nth-of-type(1),&:nth-of-type(4){
 					background: #f6bec7;
 					.product-image{
@@ -396,6 +397,10 @@
 						background-color: #e18f9c;
 						margin: 12px 0;
 					}
+					.product-descr{
+						overflow: hidden;
+						height: 81px;
+					}
 					.product-descr, .article{
 						font-size: 14px;
 						font-family: $gill;
@@ -404,7 +409,8 @@
 						font-family: $gill;
 						font-size: 35px;
 						margin: 0;
-						float: left;
+						display: inline-block;
+						width: 50%;
 						.price-icon{
 							color: #b8495b;
 							margin-right: 5px;
@@ -414,11 +420,17 @@
 						font-size: 13px;
 						color: #000;
 						position: relative;
-						right: -30px;
+						left: 30px;
 						padding-right: 11px;
+						-webkit-box-sizing: border-box;
+						-moz-box-sizing: border-box;
+						box-sizing: border-box;
+						display: inline-block;
+						float: right;
+						width: 50%;
 						.add-to-card-icon{
 							position: relative;
-							right: 6%;
+							right: 4px;
 							float: left;
 							width: 40px;
 							height: 40px;
@@ -426,7 +438,8 @@
 							background-size: 23px;
 							background-color: #d56c7c;
 							border-radius: 50%;
-
+							display: inline-block;
+							float: left;
 						}
 					}
 				}

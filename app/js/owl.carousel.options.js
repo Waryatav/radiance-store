@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
         loop:true,
         nav:true,
         items:1,
-        autoplay: true,
+        autoplay: false,
         navText : ["<img src='img/icons/slider-bot-prev.png'>","<img src='img/icons/slider-bot-next.png'>"]
     });
 
