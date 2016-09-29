@@ -20,7 +20,7 @@
   box-sizing: border-box;
   .contacts_map{
     width: 100%;
-    height:500px;
+    height:430px;
     .map-panel{
       width: 100%;
       height: 70px;
@@ -43,4 +43,279 @@
       height:100%;
     }
   }
+  .contact-us-contacts{
+    width: 100%;
+    float: left;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ffeedb;
+    &::before{
+      content: '';
+      position: absolute;
+      top: -2px;
+      width: 100%;
+      height: 10px;
+      background: url($_base+"/img/bg/before_contacts.png") no-repeat;
+    }
+    .contact-us-contacts-items{
+      width: 25%;
+      height: 320px;
+      float: left;
+      position: relative;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-top: 50px;
+      &:first-child{
+        .contacts-descr-container{
+        border-left: 2px solid transparent;
+        }
+      }
+      .contacts-descr-container{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        height:100%;
+        float: left;
+        position: relative;
+        border-left: 2px solid #a53e4d;
+
+        .contact-us-icon {
+          display: block;
+          width: 16%;
+          height: 43px;
+          background-color: #a53e4d;
+          position: relative;
+          img{
+            position: relative;
+
+          }
+          .icon-mail{
+            top: 12px;
+            width: 55%;
+          }
+          .icon-phone{
+            top: 5px;
+            width: 50%;
+            left: -2px;
+          }
+          .icon-marker{
+            top: 6px;
+            width: 50%;
+            left: 0;
+          }
+          .icon-follow{
+            top: 6px;
+            width: 50%;
+            left: -2px;
+          }
+        }
+        text-align: center;
+        h4 {
+          font-family: $gill;
+          font-size: 24px;
+          font-weight: 100;
+          color: #604c3e;
+          margin-top: -34px;
+        }
+      }
+      .contacts-descr{
+        width: 100%;
+        height: 193px;
+        overflow: hidden;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 40px;
+        .descr{
+          font-family: $gill;
+          font-size: 19px;
+          color: #604c3e;
+          margin: 0;
+        }
+        .desr-bold{
+          font-family: $gill;
+          font-size: 19px;
+          color: #604c3e;
+          font-weight: 600;
+          margin: 0;
+        }
+        .social-links{
+          font-family: $gill;
+          font-size: 18px;
+          color: #604c3e;
+          margin: 0;
+        }
+      }
+      .contact-us-social{
+        text-align: left;
+        padding-left: 25%!important;
+        a{
+          display: block;
+          margin-bottom: 14px!important;
+          text-align: left;
+          width: 100%;
+          display: inline-block;
+          position: relative;
+          img{
+            display: inline;
+            position: absolute;
+            top: 2px;
+            left: -30px;
+          }
+        }
+      }
+    }
+  }
+.email-us-container{
+  width: 100%;
+  position: relative;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 560px;
+  background-color: #ffeedb;
+  h4{
+    display: block;
+    width: 20%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    padding-left: 6%;
+    font-family: $gill;
+    font-size: 35px;
+    color: #ffeedb;
+    background-color: #a53e4d;
+    position: relative;
+    font-weight: 100;
+  img{
+    width: 25%;
+    position: absolute;
+    left: 5%;
+    top: -2px;
+  }
+  }
+  p, p a{
+    font-family: $gill;
+    font-size: 22px;
+    color: #604c3e;
+    text-align: center;
+  }
+  p a{
+    font-weight: 600;
+  }
+  .send-message-form{
+    input{
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #ffeedb;
+      border: 2px solid transparent;
+      border-bottom: 2px solid #604c3e;
+      position: relative;
+    }
+    .inp-relative{
+      position: relative;
+      width: 50%;
+      float: left;
+      padding:0 30px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 20px;
+    }
+    .textarea-container{
+      position: relative;
+      width: 100%;
+      float: left;
+      padding: 0px 30px;
+      box-sizing: border-box;
+      & label h5{
+        margin-top: 30px;
+      }
+    }
+    .name{
+      width: 100%;
+      float: left;
+      color: #604c3e;
+      font-size: 18px;
+    }
+    .mail{
+      width: 100%;
+      float: right;
+      color: #604c3e;
+      font-size: 18px;
+    }
+    textarea{
+      width: 100%;
+      height: 160px;
+      margin-top:10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      resize: none;
+      background-color: #ffeedb;
+      border: 2px solid #604c3e;
+      padding: 0 10px;
+      color: #604c3e;
+      font-size: 20px;
+    }
+
+    h5{
+      font-family: $gill;
+      font-size: 25px;
+      color: #604c3e;
+      width: 50%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      position: relative;
+      top:5px;
+      margin: 0;
+    }
+    .btm-send{
+      margin: 24px auto;
+      width: 13%;
+      height: 50px;
+      position: relative;
+    .subm{
+      display: block;
+      background-color: #a53e4d;
+      border: 2px solid transparent;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 80%;
+      height: 100%;
+      color: #ffeedb;
+      font-family: $gill;
+      font-size: 25px;
+      font-weight: 100;
+      float: left;
+      cursor: pointer;
+    }
+      .triangle{
+        //width: 20%;
+        //height: 100%;
+        //display: block;
+        //background: url($_base+"/img/");
+        //float: right;
+        cursor: pointer;
+        border-top: 25px solid transparent;
+        border-left: 16px solid #a53e4d;
+        border-bottom: 25px solid transparent;
+        position: absolute;
+        top: 0;
+        left: 80%;
+      }
+    }
+  }
+}
+}
+.clearfix{
+  clear: both;
 }
