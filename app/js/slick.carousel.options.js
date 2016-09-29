@@ -1,4 +1,8 @@
 jQuery(document).ready(function($) {
+    var base = '';
+    if(vars.template !== null){
+        base = vars.template
+    }
     $(".slick-slider").slick({
         asNavFor: '.slider-top',
         slidesToShow: 3,
@@ -10,8 +14,8 @@ jQuery(document).ready(function($) {
 });
     $(".slider-top").slick({
         asNavFor: '.slick-slider',
-        nextArrow:"<img class='slider-top-prev' src='img/icons/slider-top-next.png'>",
-        prevArrow:"<img class='slider-top-next' src='img/icons/slider-top-prev.png'>",
+        nextArrow:"<img class='slider-top-prev' src='"+base+"img/icons/slider-top-next.png'>",
+        prevArrow:"<img class='slider-top-next' src='"+base+"img/icons/slider-top-prev.png'>",
         verticalSwiping: true
 
     });

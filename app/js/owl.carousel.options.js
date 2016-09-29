@@ -1,10 +1,14 @@
 jQuery(document).ready(function($) {
+    var base = '';
+    if(vars.template !== null){
+        base = vars.template
+    }
 
     $('.slider-top_').owlCarousel({
         loop:true,
         nav:true,
          items:1,
-        navText : ["<img src='img/icons/slider-top-prev.png'>","<img src='img/icons/slider-top-next.png'>"]
+        navText : ["<img src='"+base+"img/icons/slider-top-prev.png'>","<img src='"+base+"img/icons/slider-top-next.png'>"]
     });
 
     $('.slider-bot').owlCarousel({
@@ -12,7 +16,7 @@ jQuery(document).ready(function($) {
         nav:true,
         items:1,
         autoplay: false,
-        navText : ["<img src='img/icons/slider-bot-prev.png'>","<img src='img/icons/slider-bot-next.png'>"]
+        navText : ["<img src='"+base+"img/icons/slider-bot-prev.png'>","<img src='"+base+"img/icons/slider-bot-next.png'>"]
     });
 
     $('.catalogue-carousel').owlCarousel({
