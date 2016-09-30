@@ -48,7 +48,6 @@ Temporary Items
 
 
 node_modules/
-.idea/
 gulpfile.js
 app/sass/libs/_vars.scss
-/.idea/
+/.idea/workspace.xml
