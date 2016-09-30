@@ -315,7 +315,95 @@
     }
   }
 }
+
 }
 .clearfix{
   clear: both;
+}
+.myModal{
+  display: none;
+  position: fixed;
+  top:0;
+  margin:0 auto;
+  width: 30%;
+  height: 400px;
+  background-color: #a78874;
+  z-index: 10;
+  left: 34%;
+  h5{
+    font-family: $gill;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 100;
+  }
+  input{
+    width: 80%;
+    display: block;
+    margin: 15px auto;
+    height: 30px;
+    background-color: #a78874;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-family: $gill;
+    font-size: 18px;
+    &::-webkit-input-placeholder {color:#ead3c5;
+      font-family: $gill;
+      font-size:18px;}
+    &::-moz-placeholder          {color:#ead3c5;
+      font-family: $gill;
+      font-size:18px;}/* Firefox 19+ */
+    &:-moz-placeholder           {color:#ead3c5;
+      font-family: $gill;
+      font-size:18px;}/* Firefox 18- */
+    &:-ms-input-placeholder      {color:#ead3c5;
+      font-family: $gill;
+      font-size:18px;}
+  }
+  .sign_in{
+    display: block;
+    height:40px;
+    width: 25%;
+    margin: 40px auto;
+    font-family: $gill;
+    color: #fff;
+    font-size: 28px;
+    background-color: #a78874;
+    border: 1px solid #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  a{
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    font-family: $gill;
+    font-size: 18px;
+    color: #fff;
+  }
+.myModalclose{
+  display: block;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 0;
+  right: 17px;
+  img{
+    width: 100%;
+  }
+}
+}
+.overlay{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  background-color: #ffeedb;
+  opacity: 0.5;
+  z-index: 9;
+  display: none;
 }
