@@ -51,3 +51,4 @@ node_modules/
 gulpfile.js
 app/sass/libs/_vars.scss
 /.idea/workspace.xml
+.idea/
