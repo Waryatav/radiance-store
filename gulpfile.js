@@ -36,7 +36,6 @@ gulp.task('css-libs', function() { // Создаем таск css-libs
         .pipe(postcss(processors))// сжымаем
         .pipe(concat('libs.min.css'))// объеденяем в файл
         .pipe(gulp.dest('css')) // Выгружаем результата в папку app/css
-
 });
 
 gulp.task('sass', function() { // Создаем таск Sass
@@ -68,10 +67,8 @@ gulp.task('sass', function() { // Создаем таск Sass
         }))
         .pipe(sourcemaps.write('.', { sourceRoot: 'css-source' }))
         .pipe(plumber.stop())
-        .pipe(gulp.dest('css'))
-
+        .pipe(gulp.dest('css'));
 });
-
 
 gulp.task('compress', ['clean'], function() {// Создаем таск compress
     return gulp.src('app/js/*.js')// Берем все необходимые библиотеки
@@ -104,6 +101,7 @@ gulp.task('watch', ['compress', 'extend', 'css-libs', 'img', 'sass'], function()
     gulp.watch('app/img/**/*', ['img']);// Наблюдение за папкой img
     gulp.watch('app/sass/**/*.scss', ['sass']); // Наблюдение за sass файлами в папке sass
     gulp.watch(['app/html/*.html'], ['extend']);// Наблюдение за HTML-файлами
+    gulp.watch('app/js/*',['compress']); // Наблюдение за JS файлами в папке js
 });
 
 gulp.task('img', function() {
@@ -116,8 +114,7 @@ gulp.task('img', function() {
             }],
             use: [pngquant()]
         })))
-        .pipe(gulp.dest('img'))
-
+        .pipe(gulp.dest('img'));
 });
 
 /*

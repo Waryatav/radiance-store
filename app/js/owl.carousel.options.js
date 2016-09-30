@@ -1,9 +1,8 @@
 jQuery(document).ready(function($) {
-    //var base = '';
-    // var vars;
-    // if(vars !== null && vars.template !== null){
-    //     base = vars.template
-    // }
+    var base = '';
+    if(typeof vars !== 'undefined' && vars.template !== null){
+        base = vars.template
+    }
 
     $('.slider-top_').owlCarousel({
         loop:true,

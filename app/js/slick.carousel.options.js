@@ -1,7 +1,6 @@
 jQuery(document).ready(function($) {
     var base = '';
-    var vars;
-    if(vars !== null && vars.template !== null){
+    if(typeof vars !== 'undefined' && vars.template !== null){
         base = vars.template
     }
     $(".slick-slider").slick({
@@ -9,7 +8,7 @@ jQuery(document).ready(function($) {
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: false,
-        vertical: true, 
+        vertical: true,
         arrows: false,
         verticalSwiping: true
 });
