@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
     var base = '';
-    if(vars.template !== null){
+    if(typeof vars !== 'undefined' && vars.template !== null){
         base = vars.template
     }
     $(".slick-slider").slick({
