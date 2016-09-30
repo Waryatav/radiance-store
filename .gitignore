@@ -51,8 +51,4 @@ node_modules/
 .idea/
 gulpfile.js
 app/sass/libs/_vars.scss
-.idea/copyright/
-.idea/modules.xml
-.idea/radiance-store.iml
-.idea/vcs.xml
-app/sass/content/_rightsection_.scss
+/.idea/
