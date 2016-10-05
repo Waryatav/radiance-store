@@ -19,4 +19,12 @@ jQuery(document).ready(function($) {
         verticalSwiping: true
 
     });
+
+    $(".product-slider-top").slick({
+        nextArrow:"<img class='slider-top-prev' src='"+base+"img/icons/slider-top-next.png'>",
+        prevArrow:"<img class='slider-top-next' src='"+base+"img/icons/slider-top-prev.png'>",
+        slidesToShow: 3,
+        slidesToScroll: 1
+
+    });
 });
