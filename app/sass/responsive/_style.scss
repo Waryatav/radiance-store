@@ -111,6 +111,7 @@
 }
 
 @media only screen and (max-width: 770px) {
+
   .header .call-bar-link {
     display: block;
   }
@@ -233,7 +234,9 @@
   .footer__social-links {
     justify-content: center;
   }
-
+  .terms-conditions{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 680px) {
@@ -862,5 +865,3 @@
     justify-content: center;
   }
 }
-
-

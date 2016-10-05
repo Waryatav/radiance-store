@@ -1,0 +1,58 @@
+.breadcrumbs {
+	float: left;
+	width: 100%;
+	position: relative;
+  background-color: #cbaa96;
+  padding-left: 60px;
+  box-sizing: border-box;
+	&__list {
+		list-style-type: none;
+		float: left;
+		margin: 30px 0;
+		padding: 0;
+		li {
+			display: inline-block;
+			margin: 0 10px;
+			position: relative;
+			font-size: 30px;
+			color: #fff;
+			font-family: $gill;
+      text-transform: uppercase;
+			a {
+				text: #fff;
+        font-weight: 400;
+			}
+			&:first-of-type {
+				margin-left: 0;
+			}
+
+			&:last-of-type {
+				color: #fff;
+				font-size: 30px;
+        font-weight: 700;
+        font-family: $gill;
+				a{
+					float: right;
+			    padding-left: 20px;
+					box-sizing: border-box;
+				}
+				&:after, &:before {
+					content: none;
+				}
+			}
+		}
+    li::before {
+      content: "";
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: relative;
+      margin-top: 9px;
+      left: 6%;
+      float: right;
+      width: 18px;
+      height: 20px;
+      background: url(../img/icons/menu_arrow.png);
+    }
+	}
+
+}

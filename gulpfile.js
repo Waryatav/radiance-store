@@ -1,5 +1,6 @@
 var gulp = require('gulp'), // Подключаем Gulp
     sass = require('gulp-sass'), //Подключаем Sass пакет,
+    browserSync = require('browser-sync'), // Подключаем Browser Sync
     concat = require('gulp-concat'), // Подключаем gulp-concat (для конкатенации файлов)
     uglify = require('gulp-uglifyjs'), // Подключаем gulp-uglifyjs (для сжатия JS)
     rename = require('gulp-rename'), // Подключаем библиотеку для переименования файлов
@@ -70,7 +71,23 @@ gulp.task('sass', function() { // Создаем таск Sass
         .pipe(gulp.dest('css'));
 });
 
-gulp.task('compress', ['clean'], function() {// Создаем таск compress
+gulp.task('browser-sync', function() { // Создаем таск browser-sync
+    browserSync({ // Выполняем browserSync
+        proxy: {
+            target: 'radiance-store' // Директория для сервера - app
+        },
+        ghostMode: {
+            clicks: true,
+            forms: true,
+            scroll: true
+        },
+        notify: false // Отключаем уведомления
+    });
+});
+
+
+
+gulp.task('compress', ['browser-sync','clean'], function() {// Создаем таск compress
     return gulp.src('app/js/*.js')// Берем все необходимые библиотеки
         .pipe(plumber())
         .pipe(concat('script.js'))// Собираем их в кучу в новом файле script.js

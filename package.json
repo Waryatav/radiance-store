@@ -1,7 +1,7 @@
 {
   "name": "radiance-store",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
   "main": "gulpfile.js",
   "dependencies": {
     "autoprefixer": "^6.4.0",
@@ -32,7 +32,9 @@
     "stylefmt": "^4.2.3",
     "yargs": "^5.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.17.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

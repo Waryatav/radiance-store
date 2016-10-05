@@ -1,12 +1,12 @@
 
-.foot-left-side{
+.foot-right-side{
   float: left;
   width: 100%;
   height: 136px;
   position: relative;
     .left-footer {
       display: block;
-      width: 100%;
+      width: 33.3%;
       height: 100%;
       background-color: #e18f9c;
       float: left;
@@ -105,6 +105,9 @@
 
 }
 .foot-right-side{
+  width: 100%;
+  float: left;
+  position: relative;
   .right-footer {
     width: 66.7%;
     height: 100%;
