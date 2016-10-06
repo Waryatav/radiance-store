@@ -53,9 +53,20 @@
   }
   }
   .foot-right-side{
-  .right-footer{
-    width: 100%;
-  }
+    .right-footer, .left-footer{
+      width: 100%;
+    }
+    .right-footer{
+      .bot-footer{
+        .bot-footer__left-side{
+          width: 50%;
+          a{
+            padding: 0 15px;
+            box-sizing: border-box;
+          }
+        }
+      }
+    }
   }
 }
 
