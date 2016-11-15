@@ -33,7 +33,8 @@
     "yargs": "^5.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.17.0"
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

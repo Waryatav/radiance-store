@@ -1,6 +1,10 @@
 .terms-conditions{
   float: left;
   width: 66.7%;
+  box-shadow: -10px 5px 25px -12px #000000;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
   .panel{
     &:after{
       content: '';
