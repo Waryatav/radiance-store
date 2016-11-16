@@ -26,11 +26,11 @@
 
 	<div class="main_menu">
 		<ul>
-			<li><a class="main_menu__item" href="#"><span class="mnu_arrow"></span>NEW ARRIVALS</a></li>
-			<li><a class="main_menu__item" href="#"><span class="mnu_arrow"></span>BEST SELLING</a></li>
-			<li><a class="main_menu__item" href="#"><span class="mnu_arrow"></span>SALES & SPECIALS</a></li>
-			<li><a class="main_menu__item" href="#"><span class="mnu_arrow"></span>MY ACCOUNT</a></li>
-			<li><a class="main_menu__item" href="#"><span class="mnu_arrow"></span>CONTACT US</a></li>
+			<li class="modlogin"><a class="main_menu__item" href="#"><span class="mnu_arrow"></span>NEW ARRIVALS</a></li>
+			<li class="modlogin"><a class="main_menu__item" href="#"><span class="mnu_arrow"></span>BEST SELLING</a></li>
+			<li class="modlogin"><a class="main_menu__item" href="#"><span class="mnu_arrow"></span>SALES & SPECIALS</a></li>
+			<li class="modlogin"><a class="main_menu__item" href="#"><span class="mnu_arrow"></span>MY ACCOUNT</a></li>
+			<li class="modlogin"><a class="main_menu__item" href="#"><span class="mnu_arrow"></span>CONTACT US</a></li>
 		</ul>
 	</div>
 	<div class="catalogue">
@@ -553,8 +553,8 @@
             <ul>
                 <li><a href="#">new arrivals</a></li>
                 <li><a href="#">sales & specials</a></li>
-                <li><a href="#">create account</a></li>
-                <li><a href="#" class="myBtn">customer login</a></li>
+                <li class="modreg"><a href="#">create account</a></li>
+                <li class="modlogin"><a href="#" class="myBtn">customer login</a></li>
                 <li><a href="#"> contact us</a></li>
             </ul>
         </div>
@@ -574,6 +574,48 @@
         </div>
     </div>
 </footer>
+<div class="modal_div" id="modallogin">
+    <span class="pink-top-line"></span>
+    <!-- Modal content -->
+    <form action="" class="modal_form" novalidate  method="post">
+        <h5>LOG IN</h5>
+        <input class="sign_mail" type="text" name="name" placeholder="Enter your e-mail">
+        <input class="sign_password" type="password" name="tel" placeholder="Enter your password">
+        <button class="sign_in">SIGN IN</button>
+        <a href="" class="regist">Registration new user</a>
+        <a href="" class="forgot_your_pass">Forgot your password?</a>
+        <a href="" class="modal_close"><img src="img/icons/close.svg" alt=""></a>
+    </form>
+</div>
+<div class="modal_div" id="modalregist">
+    <span class="pink-top-line"></span>
+    <!-- Modal content -->
+    <form action="" class="modal_form" novalidate  method="post">
+        <h5>REGISTRATION</h5>
+        <input type="text" name="name" placeholder="Name">
+        <input type="email" name="tel" placeholder="E-mail">
+        <div class="radio">
+            <input id="male" type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input id="female" type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <input class="very-small" type="text" name="name" placeholder="Age">
+        <div class="small-block">
+            <select class="small" name="">
+                <option value="">Country</option>
+                <option value="">2</option>
+                <option value="">2</option>
+            </select>
+            <input class="small" type="text" name="name" placeholder="City">
+        </div>
+        <input  type="password" name="tel" placeholder="Password">
+        <input  type="password" name="tel" placeholder="Repeat password">
+        <button class="sign_in">CREATE ACCOUNT</button>
+        <a href="" class="modal_close"><img src="img/icons/close.svg" alt=""></a>
+    </form>
+</div>
+<div class="overlay"></div>
 
 <!-- end right_section.html-->
 </div>
