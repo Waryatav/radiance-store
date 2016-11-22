@@ -91,4 +91,17 @@ jQuery(document).ready(function($) {
 
         return false;
     });
+
+
+    var selectSortItems = document.querySelectorAll('#ch-sort-list li');
+    var selectSortLabel = document.querySelector('#sort-by span:first-child');
+    for(i=0; i<selectSortItems.length; i++){
+        var li = selectSortItems.item(i);
+        li.onclick = function(){
+            var selectSortCurrent = document.querySelector('#ch-sort-list li.ch-sort-list-active');
+            selectSortCurrent.removeAttribute('class');
+            selectSortLabel.innerHTML = this.innerHTML;
+            this.className = 'ch-sort-list-active';
+        }
+    };
 });

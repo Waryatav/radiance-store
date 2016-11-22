@@ -247,10 +247,22 @@
             <label for="female">Female</label>
         </div>
         <input type="text" placeholder="Age">
-        <select>
+        <!--<select>
             <option>Country</option>
             <option>Abhazia</option>
-        </select>
+        </select>-->
+        <div class="country">
+            <input type="checkbox" id="ch-sort">
+            <label for="ch-sort" id="sort-by">
+                <span>Country</span>
+                <span class="icon-down"></span>
+                <ul id="ch-sort-list">
+                    <li class="ch-sort-list-active">Country</li>
+                    <li>Abhazia</li>
+                    <li>Georgia</li>
+                </ul>
+            </label>
+        </div>
         <input type="text" placeholder="City">
         <input type="text" placeholder="Address">
         <input type="text" placeholder="Address 2">

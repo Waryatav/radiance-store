@@ -207,3 +207,80 @@
 .radio-g label:before {
   border-radius: 50%;
 }
+
+.icon-down{
+  background-image: url('../img/select-arrow.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  width:13px;
+  height: 8px;
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-top: 9px;
+}
+
+.country{
+  position: relative;
+  display: block;
+  float: left;
+  height: 30px;
+  width: calc(50% - 25px);
+  margin-right: 50px;
+  text-align: left;
+  border-bottom: 1px solid #604c3e;
+  padding-bottom: 11px;
+}
+.country input[type=checkbox]{
+  display: none;
+}
+.country #sort-by{
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  background: inherit;
+  text-align: left;
+  color: #604c3e;
+  font-family:$gill;
+  font-weight:400;
+  font-size:20px;
+}
+.country ul{
+  width: 100%;
+  margin: 0;
+  padding:0;
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  box-sizing: border-box;
+  list-style: none;
+  z-index: 999;
+}
+.country ul li {
+  cursor: pointer;
+  height: 31px;
+  padding: 4px 10px;
+  box-sizing: border-box;
+  color: #604c3e;
+  font-family:$gill;
+  font-weight:400;
+  font-size:16px;
+  background-color: #cbaa96;
+  border-bottom: 1px solid #604c3e;
+}
+.country ul li:hover {
+  background-color: #604c3e;
+  color: white;
+}
+.country ul .ch-sort-list-active {
+  display: none;
+}
+.country input[type=checkbox]:checked+label>ul {
+  display: block;
+}
+/* ВЫБОРКА country конец*/
